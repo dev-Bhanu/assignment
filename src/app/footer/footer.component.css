@@ -1,11 +1,22 @@
 .footer{
     position: absolute;
-    top: 0;
+   
+    
     background-color: aqua;
     color: aliceblue;
     width: 99%;
 }
 ul{
-    display: flex;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     
+    
+
+}
+li{
+     
+    border: 1px solid black;
+     margin: 1rem;
+     color: brown;
 }
